@@ -10,7 +10,7 @@ public class Mover : MonoBehaviour
     [SerializeField] float moveSpeed = 10f;
     void Start()
     {
-        PrintInstructions();
+        PrintInstructions(); // Call the function
     }
 
     // Update is called once per frame
